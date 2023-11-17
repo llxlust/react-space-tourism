@@ -1,0 +1,41 @@
+
+.flexcon{
+    display: flex;
+    height: 100%;
+    margin-right: 50px;
+    align-items: center;
+}
+.flexchose{
+    display: flex;
+    border-bottom: 3px solid white;
+    height: 100%;
+    padding-top: 3px;
+    margin-right: 50px;
+    align-items: center;
+}
+.flexcon:hover{
+    cursor: pointer;
+}
+.flexchose:hover{
+    cursor: pointer;
+}
+.menu{
+    color: rgb(172, 172, 172);
+}
+.menu > span{
+    font-weight: 200;
+}
+
+.menu:hover{
+    color: white;
+}
+.bottBorder > span{
+    font-weight: 200;
+}
+.bottBorder{
+    color: white;
+    font-weight: bold;
+}
+.menu:hover{
+    cursor: pointer;
+}

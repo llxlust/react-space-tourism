@@ -1,0 +1,48 @@
+.navBox{
+    position: relative;
+    align-items: center;
+    width: 100%;
+    
+}
+.navFlex{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 80px;
+    margin-top: 40px;
+    align-items: center;
+    justify-content: space-between;
+}
+.img{
+    width: 45px;
+    margin-left: 70px;
+}
+.line{
+    position: absolute;
+    width: 550px;
+    top: 20px;
+    height: 2px;
+    background-color: white;
+    left: -510px;
+}
+.transBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.044);
+    backdrop-filter: blur(10px);
+    overflow: hidden;
+    //border: 2px solid red;
+    height: 100%;
+    width: 100%;
+}
+.leftBar{
+    position: relative;
+    height: 100%;
+    width: 55%;
+}
+.link{
+    text-decoration: none;
+    height: 100%;
+}

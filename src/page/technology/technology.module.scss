@@ -1,0 +1,37 @@
+.bg{
+    width: 100%;
+    height: 100vh;
+    background-image: url('./image/technology/background-technology-desktop.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.content{
+    padding-left: 180px;
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+}
+.title{
+    font-size: 28px;
+    color: white;
+}
+.title span{
+    color: rgb(172, 172, 172);
+}
+.contentFlex{
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+.flex1{
+    flex: 1;
+}
+.mixed{
+    display: flex;
+}
+.imageBox{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}

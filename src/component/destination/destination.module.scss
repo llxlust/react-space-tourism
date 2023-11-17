@@ -1,0 +1,20 @@
+.title{
+    font-size: 110px;
+    color: white;
+}
+.description{
+    color: white;
+}
+.underline{
+    color: white;
+}
+.flexBox{
+    color: white;
+    display: flex;
+}
+.flex1{
+    flex: 1;
+}
+.flex1 div:nth-child(2){
+    font-size: 36px;
+}

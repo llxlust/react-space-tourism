@@ -1,0 +1,61 @@
+.mainContent{
+    display: flex;
+}
+.textContent{
+    flex:1;
+}
+.image{
+    flex: 1;
+}
+.image > img{
+    width: 400px;
+    height: 554px;
+}
+.role{
+    font-size: 36px;
+    color: rgb(178, 178, 178);
+}
+.name{
+    font-size: 48px;
+    text-transform: uppercase;
+}
+.textContent{
+    margin-top: 150px;
+}
+
+.box{
+    max-width: 600px;
+    max-height: 300px;
+}
+.selector{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    width: 25%;
+}
+.unselected{
+    background-color: rgb(172, 172, 172);
+    width: 15px;
+    height: 15px;
+    border-radius: 10px;
+}
+.selected{
+    background-color: white;
+    width: 15px;
+    height: 15px;
+    border-radius: 10px;
+}
+
+.title{
+    color: rgb(172, 172, 172);
+    font-size: 36px;
+}
+.name{
+    font-size: 52   px;
+    color: white;
+}
+.bio{
+    color: white;
+    min-height: 162px;
+    padding-right: 180px;
+}
